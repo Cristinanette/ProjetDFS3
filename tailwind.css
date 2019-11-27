@@ -8339,6 +8339,15 @@ video {
   z-index: auto;
 }
 
+.info {
+  background-color: #fbd38d;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.info:hover {
+  text-decoration: underline;
+}
+
 p {
   font-family: 'Indie Flower', serif;
 }
