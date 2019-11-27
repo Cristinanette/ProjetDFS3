@@ -1,3 +1,13 @@
 p {
     font-family: 'Indie Flower', serif;
 }
+
+@keyframes bouge {
+    from {transform: scale(.9)}
+    50% { transform: scale(1.1)}
+    to { transform: scale(.9)}
+}
+
+h1 {
+    animation: bouge 3s infinite;
+}
